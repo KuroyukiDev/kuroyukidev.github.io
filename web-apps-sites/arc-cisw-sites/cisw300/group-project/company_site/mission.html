@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Motor Skills</title>
+	<meta charset="utf-8">
+	<link href="css/stylesheet.css" rel="stylesheet" >
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+<style>
+</style>
+	
+</head>
+<body>
+<div id="Wrapper">
+<header>
+
+</header>
+<nav>
+	<div id="myNav" class="overlay">
+    <div class="overlay-content">
+	<a href="index.html" target="_self">Home</a>
+	<a href="mission.html" target="_self">Mission</a>
+	<a href="course.html" target="_self">Student Info</a>
+	<a href="about.html" target="_self">About Us</a>
+	<a href="testimonials.html" target="_self">Testimonials</a>
+	<a href="form.html" target="iframe" id="myBtn">Enroll Now!</a>
+	</div>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+if (    document.getElementById("myNav").style.height = "100%")
+{
+    document.getElementById("myNav").style.height = "0%";
+}
+}
+
+</script>
+</nav>  
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+<!--	<p>Temporary Modal Content Text</p> -->
+	
+	<iframe name="iframe" src="form.html" style="border: 2px solid black; width: 95%; height: 400px;" ></iframe>
+  </div>
+
+</div>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+<main style="background-image:url(images/windingrd.png);
+			background-size:cover;
+			background-position:center;" onclick="closeNav();">
+<div id="Content">
+
+<h1>Mission</h1>
+
+	<p>
+	Our Mission is to make "good" drivers, "safer" drivers! 
+	We offer four different courses that guarantee you become a safer
+	driver.
+	</p>
+	<p>Over time the human and vehicle damage in our society has grown to
+	accept as a part of daily life, and the cost of being on
+	our roads can be effectively reduced not eliminated.
+	</p>
+
+	<h1>Response Time</h1>
+
+		<p>What we experience in our daily lives is the result of vehicle
+		operators finding themselves in unfamiliar life and death
+		situations with 1/4 of a second to respond and face the
+		consequences and not knowing what to do, and what to do next.
+		</p> 
+		<p>
+		(Similar to dropping a piece of fine china and not knowing how to
+		catch it.)
+		</p>
+
+	<h2 style="text-align: center">Self Confidence</h2>
+		<p>No training system can ever make anyone perfect, BUT our
+		program WILL improve any vehicle operator's skills and confidence
+		far beyond 10%. We Guarantee it !!</p>
+
+		<p>Our training is not designed to replace any other driver
+		training system only to supplement them. </p>
+
+		<p>Our training is not designed to and will not teach you how to
+		drive or pass a drivers examination or test.</p>
+
+		<p>Our training is specially developed to teach and improve your
+		VEHICLE HANDLING SKILLS in unfamiliar (scary) situations, as
+		well as routine operation of any vehicle in any conditions.</p>
+
+		<p>Our system will and has been proven to work in any vehicle
+		(front - rear wheel drive, standard - automatic transmission, sub
+		compact - trucks/bus)</p>
+
+</div>
+<br><br><br><br><br>
+</main>
+
+	<footer onclick="closeNav();">
+	<div class="footer">
+	<ul>
+	<li>Start your Training NOW!</li>
+	<li>Call (888) GOT-SKLL</li>
+	&nbsp;&nbsp;&nbsp;
+	<li>return to <a href="http://power.arc.losrios.edu/" target="_self">Power Server</a></li>
+	<li>Updated: 4/2/17 @ 1:41am </li>
+	<li> by <a href="http://power.arc.losrios.edu/~group1/cisw300/" target="_self"><img id="prime" src="http://power.arc.losrios.edu/~group1/cisw300/images/logo.png" alt="Code Prime Logo" height="40px" width="100px"></a></li>
+
+	</ul>
+</div> 
+	</footer>
+</div>
+</body>
+</html>

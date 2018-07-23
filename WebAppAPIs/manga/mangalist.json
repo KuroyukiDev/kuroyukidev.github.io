@@ -1,0 +1,306 @@
+				{
+					"manga_name": "Tomochan Wa Onnanoko",
+					"id": 0,
+					"pages": [
+						{
+							"chapter_label": "001",
+							"chapter": 1,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-001.jpg"
+						},
+						{
+							"chapter_label": "002",
+							"chapter": 2,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-002.jpg"
+						},
+						{
+							"chapter_label": "003",
+							"chapter": 3,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-003.jpg"
+						},
+						{
+							"chapter_label": "004",
+							"chapter": 4,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-004.jpg"
+						},
+						{
+							"chapter_label": "005",
+							"chapter": 5,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-005.jpg"
+						},
+						{
+							"chapter_label": "006",
+							"chapter": 6,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-006.jpg"
+						},
+						{
+							"chapter_label": "007",
+							"chapter": 7,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-007.jpg"
+						},
+						{
+							"chapter_label": "008",
+							"chapter": 8,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-008.jpg"
+						},
+						{
+							"chapter_label": "009",
+							"chapter": 9,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-009.jpg"
+						},
+						{
+							"chapter_label": "010",
+							"chapter": 10,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-010.jpg"
+						},
+						{
+							"chapter_label": "011",
+							"chapter": 11,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-011.jpg"
+						},
+						{
+							"chapter_label": "012",
+							"chapter": 12,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-012.jpg"
+						},
+						{
+							"chapter_label": "013",
+							"chapter": 13,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-013.jpg"
+						},
+						{
+							"chapter_label": "014",
+							"chapter": 14,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-014.jpg"
+						},
+						{
+							"chapter_label": "015",
+							"chapter": 15,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-015.jpg"
+						},
+						{
+							"chapter_label": "016",
+							"chapter": 16,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-016.jpg"
+						},
+						{
+							"chapter_label": "017",
+							"chapter": 17,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-017.jpg"
+						},
+						{
+							"chapter_label": "018",
+							"chapter": 18,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-018.jpg"
+						},
+						{
+							"chapter_label": "019",
+							"chapter": 19,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-019.jpg"
+						},
+						{
+							"chapter_label": "020",
+							"chapter": 20,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-020.jpg"
+						},
+						{
+							"chapter_label": "021",
+							"chapter": 21,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-021.jpg"
+						},
+						{
+							"chapter_label": "022",
+							"chapter": 22,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-022.jpg"
+						},
+						{
+							"chapter_label": "023",
+							"chapter": 23,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-023.jpg"
+						},
+						{
+							"chapter_label": "024",
+							"chapter": 24,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-024.jpg"
+						},
+						{
+							"chapter_label": "025",
+							"chapter": 25,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-025.jpg"
+						},
+						{
+							"chapter_label": "026",
+							"chapter": 26,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-026.jpg"
+						},
+						{
+							"chapter_label": "027",
+							"chapter": 27,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-027.jpg"
+						},
+						{
+							"chapter_label": "028",
+							"chapter": 28,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-028.jpg"
+						},
+						{
+							"chapter_label": "029",
+							"chapter": 29,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-029.jpg"
+						},
+						{
+							"chapter_label": "030",
+							"chapter": 30,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-030.jpg"
+						},
+						{
+							"chapter_label": "031",
+							"chapter": 31,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-031.jpg"
+						},
+						{
+							"chapter_label": "032",
+							"chapter": 32,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-032.jpg"
+						},
+						{
+							"chapter_label": "033",
+							"chapter": 33,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-033.jpg"
+						},
+						{
+							"chapter_label": "034",
+							"chapter": 34,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-034.jpg"
+						},
+						{
+							"chapter_label": "035",
+							"chapter": 35,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-035.jpg"
+						},
+						{
+							"chapter_label": "036",
+							"chapter": 36,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-036.jpg"
+						},
+						{
+							"chapter_label": "037",
+							"chapter": 37,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-037.jpg"
+						},
+						{
+							"chapter_label": "038",
+							"chapter": 38,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-038.jpg"
+						},
+						{
+							"chapter_label": "039",
+							"chapter": 39,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-039.jpg"
+						},
+						{
+							"chapter_label": "040",
+							"chapter": 40,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-040.jpg"
+						},
+						{
+							"chapter_label": "041",
+							"chapter": 41,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-041.jpg"
+						},
+						{
+							"chapter_label": "042",
+							"chapter": 42,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-042.jpg"
+						},
+						{
+							"chapter_label": "043",
+							"chapter": 43,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-043.jpg"
+						},
+						{
+							"chapter_label": "044",
+							"chapter": 44,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-044.jpg"
+						},
+						{
+							"chapter_label": "045",
+							"chapter": 45,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-045.jpg"
+						},
+						{
+							"chapter_label": "046",
+							"chapter": 46,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-046.jpg"
+						},
+						{
+							"chapter_label": "047",
+							"chapter": 47,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-047.jpg"
+						},
+						{
+							"chapter_label": "048",
+							"chapter": 48,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-048.jpg"
+						},
+						{
+							"chapter_label": "049",
+							"chapter": 49,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-049.jpg"
+						},
+						{
+							"chapter_label": "050",
+							"chapter": 50,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-050.jpg"
+						},
+						{
+							"chapter_label": "051",
+							"chapter": 51,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-051.jpg"
+						},
+						{
+							"chapter_label": "052",
+							"chapter": 52,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-052.jpg"
+						},
+						{
+							"chapter_label": "053",
+							"chapter": 53,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-053.jpg"
+						},
+						{
+							"chapter_label": "054",
+							"chapter": 54,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-054.jpg"
+						},
+						{
+							"chapter_label": "055",
+							"chapter": 55,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-055.jpg"
+						},
+						{
+							"chapter_label": "056",
+							"chapter": 56,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-056.jpg"
+						},
+						{
+							"chapter_label": "057",
+							"chapter": 57,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-057.jpg"
+						},
+						{
+							"chapter_label": "058",
+							"chapter": 58,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-058.jpg"
+						},
+						{
+							"chapter_label": "059",
+							"chapter": 59,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-059.jpg"
+						},
+						{
+							"chapter_label": "060",
+							"chapter": 60,
+							"img_url": "https://kuroyukidev.github.io/WebAppAPIs/manga/tomochan-wa-onnanoko/tomochan-wa-060.jpg"
+						}
+					]
+				}

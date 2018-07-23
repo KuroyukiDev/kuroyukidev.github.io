@@ -1,0 +1,28 @@
+#wrapper {
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		background-color: SlateGrey;
+	
+}
+
+table {
+
+		padding-top: 5%;
+		padding-bottom: auto;
+		padding-left: auto;
+		padding-right: auto;
+		
+}
+
+table, th, td {
+		border: 1px solid white;
+	
+}
+
+th, td {
+		padding: 2%;
+		
+	
+}

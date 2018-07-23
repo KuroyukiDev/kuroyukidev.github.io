@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Japan Music Mobile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css"/>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" href="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/player-size-media-query.css">
+    <script type="text/javascript">
+     
+    </script>
+
+
+  </head>
+  <body>
+
+
+    <!-- Home Page Starts Here -->
+
+
+    <div data-role="page" data-title="日本の音楽" id="homepage" data-theme="a">
+      
+        <div data-role="header" class="ui-header" data-theme="b" data-position="fixed">
+          
+          <h6>日本の音楽</h6>
+
+        </div>
+      
+        <div data-role="main" class="ui-content">
+
+            <div class="menu">
+
+              <div data-role="collapsible">
+                <h1 class="btn-header">TuneIn Radio Stations</h1>
+                
+                  <ul class="ui-inline" data-role="listview" data-inset="true">
+                    <li>
+                      <a href="#jjamsradio">
+                        <p>J-JAMS Radio</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#jwaveradio">
+                        <p>J-Wave Radio</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#animenfoirc">
+                        <p>AnimeNfo IRC Radio</p>
+                      </a>
+                    </li>
+                  </ul>
+                              
+              </div>
+              <div data-role="collapsible">
+                <h1 class="btn-header">Soundcloud Playlists</h1>
+
+                <ul class="ui-inline" data-role="listview" data-inset="true">
+                  <li>
+                    <a href="#hatsune-mix-one">
+                      <p>Hatusne Miku Mix #1</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#anime-mix-one">
+                      <p>Anime OP / ED Mix #1</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#jpop-anime-mix">
+                      <p>J-Pop & Anime Mix</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#tpz-mix">
+                      <p>T+pazolite Mix</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#jp-rap-mix">
+                      <p>J-Rap Mix</p>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </div>
+
+
+            </div>
+        </div>
+
+      <div data-role="footer" data-position="fixed" class="ui-footer" data-theme="b">
+        <h3>KuroyukiDev 2017</h3>
+      </div>
+
+    </div> 
+
+    
+    <!-- J-JAMS Radio Page Starts Here -->
+    
+    <div data-role="page" data-title="J-JAMS Radio IRC Station" id="jjamsradio" class="non-scrolling" data-theme="a">
+
+      <div data-role="header" class="ui-header" data-theme="b" data-position="fixed">
+
+        <p class="pg-title">&nbsp;&nbsp;&nbsp;&nbsp;J-Jams Radio</p>
+
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <div class="container">
+          <iframe src="https://tunein.com/embed/player/s177213/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
+        </div>
+      </div>
+
+      <div data-role="footer" data-position="fixed" class="ui-footer" data-theme="b">
+        <h1><a href="#homepage" class="ui-btn ui-icon-home ui-corner-all ui-btn-icon-left">Home</a></h1>
+      </div>
+    </div>
+    
+
+    <!-- J-Wave IRC Page Starts Here -->
+
+    <div data-role="page" data-title="J-Wave: Music Hyper Market Radio Station" id="jwaveradio" class="non-scrolling" data-theme="a">
+
+      <div data-role="header" class="ui-header" data-theme="b" data-position="fixed">
+
+        <p class="pg-title">&nbsp;&nbsp;&nbsp;J-Wave Tokyo Talk Show Radio</p>
+
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <div class="container">
+          <iframe src="https://tunein.com/embed/player/p383778/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
+        </div>
+      </div>
+
+      <div data-role="footer" data-position="fixed" class="ui-footer" data-theme="b">
+        <h1><a href="#homepage" class="ui-btn ui-icon-home ui-corner-all ui-btn-icon-left">Home</a></h1>
+      </div>
+    </div>
+
+    <!-- AnimeNfo IRC Radio Page Starts Here -->
+
+    <div data-role="page" data-title="AnimeNfo IRC Radio Station" id="animenfoirc" class="non-scrolling" data-theme="a">
+
+      <div data-role="header" class="ui-header" data-theme="b" data-position="fixed">
+
+        <p class="pg-title">&nbsp;&nbsp;&nbsp;&nbsp;AnimeNfo IRC Radio</p>
+
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <div class="container">
+          <iframe src="https://tunein.com/embed/player/s54119/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
+        </div>
+      </div>
+
+      <div data-role="footer" data-position="fixed" class="ui-footer" data-theme="b">
+        <h1><a href="#homepage" class="ui-btn ui-icon-home ui-corner-all ui-btn-icon-left">Home</a></h1>
+      </div>
+    </div>
+
+
+    
+    
+<!--===================================================-->  
+
+    <!-- Soundcloud Mixes Start Here -->
+    
+<!--===================================================-->  
+    
+    
+    <!-- Hatsune Miku Mix Page Starts Here -->
+
+    <div data-role="page" data-title="Hatsune Miku Mix #1" id="hatsune-mix-one" class="non-scrolling" data-theme="a">
+
+      <div data-role="header" class="ui-header" data-theme="b" data-position="fixed">
+
+        <p class="pg-title">&nbsp;&nbsp;&nbsp;&nbsp;Hatsune Miku Mix</p>
+
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <div class="container">
+          <iframe class="set-sc-player-size" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/222241173&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+        </div>
+      </div>
+
+      <div data-role="footer" data-position="fixed" class="ui-footer" data-theme="b">
+        <h1><a href="#homepage" class="ui-btn ui-icon-home ui-corner-all ui-btn-icon-left">Home</a></h1>
+      </div>
+    </div>
+    
+    
+    <!-- Anime OP & ED Mix Page Starts Here -->
+
+    <div data-role="page" data-title="Anime OP & ED Mix #1" id="anime-mix-one" class="non-scrolling" data-theme="a">
+
+      <div data-role="header" class="ui-header" data-theme="b" data-position="fixed">
+
+        <p class="pg-title">&nbsp;&nbsp;&nbsp;&nbsp;Anime Mix</p>
+
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <div class="container">
+          <iframe class="set-sc-player-size" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/348927922&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      </div>
+
+      <div data-role="footer" data-position="fixed" class="ui-footer" data-theme="b">
+        <h1><a href="#homepage" class="ui-btn ui-icon-home ui-corner-all ui-btn-icon-left">Home</a></h1>
+      </div>
+    </div>
+  </div>
+
+
+
+    <!-- J-Pop & Anime OP & ED Mix Page Starts Here -->
+
+    <div data-role="page" data-title="Anime OP & ED Mix #1" id="jpop-anime-mix" class="non-scrolling" data-theme="a">
+
+      <div data-role="header" class="ui-header" data-theme="b" data-position="fixed">
+
+        <p class="pg-title">&nbsp;&nbsp;&nbsp;&nbsp;J-Pop & Anime Mix</p>
+
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <div class="container">
+          <iframe class="set-sc-player-size" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/6818198&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+        </div>
+
+        <div data-role="footer" data-position="fixed" class="ui-footer" data-theme="b">
+          <h1><a href="#homepage" class="ui-btn ui-icon-home ui-corner-all ui-btn-icon-left">Home</a></h1>
+        </div>
+      </div>
+    </div>
+
+    
+      <!-- TPZ Mix Page Starts Here -->
+
+      <div data-role="page" data-title="T+pazolite Mix" id="tpz-mix" class="non-scrolling" data-theme="a">
+
+        <div data-role="header" class="ui-header" data-theme="b" data-position="fixed">
+
+          <p class="pg-title">&nbsp;&nbsp;&nbsp;&nbsp;T+pazolite Mix</p>
+
+        </div>
+
+        <div data-role="main" class="ui-content">
+          <div class="container">
+            <iframe class="set-sc-player-size" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/202551322&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+          </div>
+        </div>
+
+        <div data-role="footer" data-position="fixed" class="ui-footer" data-theme="b">
+          <h1><a href="#homepage" class="ui-btn ui-icon-home ui-corner-all ui-btn-icon-left">Home</a></h1>
+        </div>
+      </div>
+
+
+
+    <!-- J-Rap Mix #1 Page Starts Here -->
+
+    <div data-role="page" data-title="J-Rap Mix #1" id="jp-rap-mix" class="non-scrolling" data-theme="a">
+
+      <div data-role="header" class="ui-header" data-theme="b" data-position="fixed">
+
+        <p class="pg-title">&nbsp;&nbsp;&nbsp;&nbsp;J-Rap Mix</p>
+
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <div class="container">
+          <iframe class="set-sc-player-size" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/235033992&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+        </div>
+      </div>
+
+      <div data-role="footer" data-position="fixed" class="ui-footer" data-theme="b">
+        <h1><a href="#homepage" class="ui-btn ui-icon-home ui-corner-all ui-btn-icon-left">Home</a></h1>
+      </div>
+    </div>
+
+
+
+
+    
+  </body>
+</html>

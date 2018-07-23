@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KuroyukiDev</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css"/>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" href="js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript">
+     
+    </script>
+
+
+  </head>
+  <body>
+
+
+    <!-- Home Page Starts Here -->
+
+
+    <div data-role="page" data-title="KuroyukiDev - Kuroyuki Mikoto's Web Development Portfolio Home Page" id="homepage">
+      <div data-role="panel" id="homeNavPanel" data-display="reveal"> 
+    	<div class="ui-body-c">
+				<ul data-role="listview">
+					<li data-role="list-divider" class="ui-li-divider"><h2>Menu</h2></li>
+					<li><a href="#homepage">Home</a></li>
+					<li><a href="#myProjectsListPage">My Projects</a></li>
+				</ul>
+			</div>
+    
+  </div> 
+        <div data-role="header" class="ui-header" data-theme="b" data-position="fixed">
+          <a href="#homeNavPanel" data-icon="bars" data-iconpos="left" data-theme="d" data-mini="true">Menu</a>
+            
+
+          <h6>KuroyukiDev - Home Page</h6>
+
+        </div>
+      
+        <div data-role="main" class="ui-content ui-body-a">
+			<div data-role="content" class="ui-body-b">
+				
+				<h2>Home Page Main</h2>
+				
+			</div>
+        </div>
+
+      <div data-role="footer" data-position="fixed" class="ui-footer" data-theme="b">
+        <h3>KuroyukiDev 2017</h3>
+      </div>
+
+    </div> 
+
+    
+    <!-- J-JAMS Radio Page Starts Here -->
+    
+    <div data-role="page" data-title="KuroyukiDev - Search My List of Projects" id="myProjectsListPage">
+      <div data-role="panel" id="projectsListNavPanel" data-display="reveal"> 
+    	<div class="ui-body-c">
+				<ul data-role="listview">
+					<li data-role="list-divider" class="ui-li-divider"><h2>Menu</h2></li>
+					<li><a href="#homepage">Home</a></li>
+					<li><a href="#myProjectsListPage">My Projects</a></li>
+				</ul>
+			</div>
+    
+  </div> 
+        <div data-role="header" class="ui-header" data-theme="b" data-position="fixed">
+          <a href="#projectsListNavPanel" data-icon="bars" data-iconpos="left" data-theme="d" data-mini="true">Menu</a>
+			<h2>Search My Projects List</h2>
+
+      </div>
+
+      <div data-role="main" class="ui-content ui-body-a">
+        <div class="container ui-body-b">
+          <form class="ui-filterable ui-body">
+      			<input id="myFilter" type="text" data-theme="a" data-type="search">
+    		</form>
+    
+    		<ul data-role="listview" data-filter="true" data-input="#myFilter" data-autodividers="true" data-inset="true">
+    			<li data-theme="a" style="background-color: khaki;"><a href="https://animecafe.github.io/index.html" target="_blank">Anime Cafe</a></li>
+    			<li data-theme="a" style="background-color: khaki;"><a href="https://kuroyukidev.github.io/web-apps-sites/mobile-site-template/index.html" target="_blank">Nippon Music Mobile</a></li>
+				<li data-theme="a" style="background-color: khaki;"><a href="https://kuroyukidev.github.io/web-apps-sites/pokedex-mobile-site/index.html" target="_blank">Pokedex Mobile</a></li>
+   			</ul>
+        </div>
+      </div>
+
+      <div data-role="footer" data-position="fixed" class="ui-footer" data-theme="b">
+        <h3>KuroyukiDev 2017</h3>
+      </div>
+    </div>
+    
+    
+  </body>
+</html>

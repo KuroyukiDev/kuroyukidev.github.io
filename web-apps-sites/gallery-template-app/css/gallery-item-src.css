@@ -1,0 +1,50 @@
+.gallery {
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+
+.gallery-item {
+	height: auto;
+	width: 30%;
+	margin: 16px 10% 0 10%;
+	padding: 5px 5px;
+	border: 1px solid black;
+}
+.gallery-item a {
+	text-decoration: none;
+	color: black;
+}
+
+.thumbnail {
+	height: 55px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.image-viewer {
+	height: 62vh;
+	width: 100%;
+	margin-top: 16px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.img-item1 {
+	background-image: url(./../images/gate-bg-img.jpg);
+}
+
+.img-item2 {
+	background-image: url(./../images/painting1-bg-img.jpg);
+}
+
+.img-item3 {
+	background-image: url(./../images/painting2-bg-img.jpg);
+}
+
+.img-item4 {
+	background-image: url(./../images/takenomori-bg-img.jpg);
+}

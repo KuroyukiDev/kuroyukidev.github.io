@@ -1,0 +1,142 @@
+.page-bg-img {
+	background-image: image("./../img/main_bg2.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main {
+	display: grid;
+	
+}
+
+.logo-bg {
+	background-color: black;
+}
+
+.footer {
+	
+}
+
+@media only screen and (max-width: 425px) and (orientation: portrait) {
+	.grid {
+		width: 100%;
+		grid-template: 45px repeat(6, 1fr) 85px / 100%;
+		z-index: 1;
+		background-color: lightgray;
+		justify-content: center;
+		grid-row-gap: 16px;
+	}
+	
+	.drop-menu-panel {
+		background-color: dimgray;
+		
+	}
+	
+	.nav, .navbar-nav, .navbar-brand, .mobile-link-color h4 {
+		color: lime;
+	}
+	
+	nav {
+		grid-area: 1 / 1 / span 1 / span 1;
+		height: inherit;
+		z-index: 1;
+	}
+	
+	.main {
+		overflow-y: auto;
+		top: 45px;
+		
+	}
+	
+	.main section p {
+		margin: 0 12px;
+		padding: 15px;
+		font-weight: 600;
+		letter-spacing: 1px;
+	}
+	
+	.main section {
+		border: 1px solid lime;
+		margin: 8px 12px 8px 12px;
+	}
+	
+	.main section .section-title {
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: underline;
+		font-weight: 800;
+	}
+	
+	section.page-title {
+		grid-area: 2 / 1 / span 1 / span 1;
+		text-align: center;
+		margin-top: 70px;
+	}
+	
+	section.dev-team {
+		grid-area: 3 / 1 / span 1 / span 1;
+		text-align: center;
+		
+	}
+	
+	span.logo-bg img {
+		margin: auto;
+	}
+	
+	span.logo-bg {
+		background-color: black;
+		padding: 20px 8px;
+	}
+	
+	section.dev-team .logo-bg img {
+		background-size: contain;
+		background-position: center;
+	}
+	
+	section.about {
+		grid-area: 4 / 1 / span 1 / span 1;
+	}
+	
+	section.donate {
+		grid-area: 5 / 1 / span 1 / span 1;
+		text-align: center;
+		padding: 0 auto;
+	}
+	
+	.donate-link {
+		height: auto;
+		width: inherit;
+		padding: auto;
+	}
+	
+	.donate-btn {
+		background-color: dimgrey;
+		color: lime;
+		border: medium solid lime;
+		padding: 25px 10px;
+		font-size: 20px;
+		cursor: pointer;
+		text-decoration: none;
+	}
+	
+	section.disclaimer {
+		grid-area: 6 / 1 / span 1 / span 1;
+		margin-bottom: -32px;
+	}
+	
+	.footer {
+		grid-area: 8 / 1 / span 1 / span 1;
+		justify-content: center;
+		margin-top: -25px;
+	}
+	
+	.footer .container .logo-link {
+		padding: 10px auto;
+		margin: 0 auto;
+		height: 90px;
+		
+	}
+	
+}

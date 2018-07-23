@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Open+Sans+Condensed:300|Open+Sans:300,400,700');
+
+#Wrapper {
+	height: 98vh;
+	width: 98vw;
+/*	top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:auto;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif; */
+	font-family: 'Cormorant Garamond', serif;
+	
+}
+/*
+#Header {
+	height: 10vh;
+	width: 100%;
+	float: left;
+	
+}
+*/
+body {
+	width: 849px;
+	height: 507px;
+	
+}
+
+#Menu {
+	height: 8vh;
+	width: 100%;
+	float: left;
+	
+}
+
+#Content {
+	height: 55vh;
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 250px;
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
+	
+}
+
+
+
+header {
+	position:fixed;
+	top: 0;
+	background-image: url("../images/navbar_final.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	width: 95vw;
+	min-height:80px;
+	z-index:1;
+
+}
+
+nav {
+	margin-top: 35px;
+	position: fixed;
+	z-index:2;
+	/*margin-left: 25%;*/
+	font-family: 'Monoton', cursive;
+
+}
+
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+	border-right: 1px solid #FFFFFF;
+	
+}
+
+nav.footer {
+	margin-top: 140px;
+	position: fixed;
+	z-index:2;
+	color: white;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 14px;
+	text-align: left;
+	
+}
+	
+a:link {
+	text-shadow: 2px 2px #000000; 
+	color: #FFFFFF;
+
+}
+
+a:visited {
+	Color: lightgreen;
+
+}
+
+a:hover {
+	color: #FF00FF;
+	background-color: #00FF00;
+
+}
+
+nav ul {
+	list-style-type: none;
+	
+}
+
+nav li {
+	display: inline;
+	
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+footer {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	font-size:.60em;
+	font-style: italic;
+	border-style:none;
+	border-width: 0;
+	margin-left:0;
+	margin-right:0;
+	background-image: url("../images/dashfinal_2.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	width:860px;
+	min-height:176px;
+	}
+
+/* This should give semi-transparent boxes around <p> tags for the content pages. */
+/*
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+*/
+	

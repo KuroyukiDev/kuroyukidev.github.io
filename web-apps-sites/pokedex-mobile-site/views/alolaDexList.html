@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alola Dex List - Pokedex Mobile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="script-imports/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="script-imports/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+    <script src="script-imports/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="script-imports/angularjs/1.6.4/angular.min.js" type="text/javascript"></script>
+    
+    <script type="text/javascript" href="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+		<script type="text/javascript">
+		
+			$(document).ready(function() {
+				$("#alldiv").hide();
+				 $("#akaladiv").hide();
+				$("#all").click(function() {
+					$("#alldiv").show();
+					$("#akaladiv").hide();
+				});
+				 $("#akala").click(function() {
+					$("#alldiv").show();
+					$("#akaladiv").hide();
+				});
+			});
+		
+		</script>
+	
+</head>
+<body>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <h4>
+				<span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>  
+				</h4>                      
+      </button>
+      <h4 class="navbar-brand">Pokedex Mobile</h4>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav text-center">
+        <li><a href="index.html"><h4>Home</h4></a></li>
+		<li><a class="active" href="alolaDexList.html"><h4>Alola Dex List</h4></a></li>
+		<!--<li><a href="sub/sub_home.html"><h4>Subbed</h4></a></li>-->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="main">
+
+<div class="container">
+	<div class="text-center">
+		
+		<h2>~ Alola Dex List ~</h2>
+		<div class="dropdown">
+			
+			<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select Island<span class="caret"></span></button>
+			<ul class="dropdown-menu dropdown-menu-center">
+				<li><a href="#all">All Islands</a></li>
+				<li><a href="#mele">Mele Mele</a></li>
+				<li><a href="#akala">Akala</a></li>
+			
+			</ul>
+			
+		</div>
+	</div>
+
+</div>
+</div>
+<footer class="footer">
+	<div class="container">
+		<a href="https://kuroyukidev.github.io/" target="_blank"><h3 class="text-center">KuroyukiDev 2017</h3></a>
+	</div>
+</footer>
+</body>
+</html>

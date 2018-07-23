@@ -1,0 +1,71 @@
+#Wrapper {
+	height: 95vh;
+	width: 95vw;
+	margin: auto;
+	
+}
+
+#Header {
+	height: 10vh;
+	width: 100%;
+	float: left;
+	
+	background-color: blue;
+	
+}
+
+/* Both Top and Bottom Menus */
+
+#TopMenu {
+	height: 8vh;
+	width: 100%;
+	float: left;
+	
+	background-color: pink;
+	
+}
+
+#BottomMenu {
+	
+	
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#Content {
+	height: 55vh;
+	width: 100%;
+	float: left;
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
+	
+	background-color: khaki;
+	
+}
+
+#FooterSection {
+	height: 4vh;
+	width: 100%;
+	float: left;
+    background-image: url("images/dash_849x176px.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+/*####################################################################################################*/
+
+/* Content Pages Styling */
+
+
+.viewerstyle {
+	height: 99%;
+	width: 99%;
+	
+}
+
+
+.mission_bg {
+	background-color: green;
+	
+}

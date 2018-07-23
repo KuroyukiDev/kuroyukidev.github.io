@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./css/themes/my-custom-theme-set1.min.css" />
+	<link rel="stylesheet" href="./css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	<script type="text/javascript" href="js/script.js"></script>
+</head>
+
+<body>
+
+	<div data-role="page" data-title="Search In My Projects" data-theme="c" data-id="projectsList">
+		<div data-role="panel" id="menuPanel" data-theme="c">
+			<div class="ui-body-c">
+				<ul data-role="listview">
+					<li data-role="list-divider" class="ui-li-divider"><h2>Menu</h2></li>
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./myProjectsList.html">My Projects</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div data-role="header" class="ui-header" data-position="fixed" data-theme="c">
+			
+		<a href="#menuPanel" class="ui-btn ui-icon-bars ui-btn-icon-left" data-iconpos="left">Menu</a>
+			<h4>Search My Projects List</h4>
+			
+		</div>
+  		<div data-role="main" class="ui-content">
+  			<form class="ui-filterable">
+      			<input id="myFilter" type="text" data-type="search">
+    		</form>
+    
+    		<ul data-role="listview" data-filter="true" data-input="#myFilter" data-autodividers="true" data-inset="true">
+    			<li><a href="https://animecafe.github.io/index.html">Anime Cafe</a></li>
+    			<li><a href="https://kuroyukidev.github.io/web-apps-sites/mobile-site-template/index.html">Nippon Music Mobile</a></li>
+   			</ul>
+		</div>
+		
+	</div>
+</body>
+</html>

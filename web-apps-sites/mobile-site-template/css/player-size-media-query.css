@@ -1,0 +1,138 @@
+
+/* Samsung Galaxy S7 & S7 Edge */
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+    /* Style */ 
+
+    .set-sc-player-size {
+      height: 620px;
+      width: 100%;
+    }
+
+}
+
+/* Samsung Galaxy Tab 4 - 7inch */
+
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-height: 1280px) 
+  and (min-resolution: 192dpi)
+  and (-webkit-device-pixel-ratio:2)
+  and (orientation : portrait) {
+  
+
+    .set-sc-player-size {
+      height: 435px;
+      width: 100%;
+    }
+    
+}
+
+@media only screen 
+  and (min-device-width: 1280px) 
+  and (max-device-height: 800px) 
+  and (min-resolution: 192dpi)
+  and (-webkit-device-pixel-ratio:2)
+  and (orientation : landscape) {
+    
+    .set-sc-player-size {
+      height: 400px;
+      width: 100%;
+    }
+
+}
+
+/* HTC One portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+
+    .set-sc-player-size {
+      height: 350px;
+      width: 100%;
+    }
+
+}
+
+
+/* iPhone 5 (portrait)----------- */
+@media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 568px)
+  and (orientation : portrait) {
+    /* STYLES GO HERE */
+
+    .set-sc-player-size {
+      height: 350px;
+      width: 100%;
+    }
+
+}
+
+
+/* iPhone 6 Plus in portrait */
+@media only screen 
+  and (min-device-width : 414px) 
+  and (max-device-width : 736px) 
+  and (orientation : portrait) {
+
+    .set-sc-player-size {
+      height: 365px;
+      width: 100%;
+    }
+
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px) {
+    /* STYLES GO HERE */
+
+    .set-sc-player-size {
+      height: 440px;
+      width: 100%;
+    }
+
+}
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen
+  and (min-width : 1224px) {
+    /* STYLES GO HERE */
+
+
+    .set-sc-player-size {
+      height: 540px;
+      width: 100%;
+    }
+
+}
+
+/* Large screens ----------- */
+@media only screen
+  and (min-width : 1824px) {
+    /* STYLES GO HERE */
+
+
+    .set-sc-player-size {
+      height: 590px;
+      width: 100%;
+    }
+
+}
+
+
+

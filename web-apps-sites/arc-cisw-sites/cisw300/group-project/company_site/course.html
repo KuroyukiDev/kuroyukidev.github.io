@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Motor Skills</title>
+	<meta charset="utf-8">
+	<link href="css/stylesheet.css" rel="stylesheet" >
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<style>
+
+</style>
+	
+</head>
+<body>
+<div id="Wrapper">
+<header>
+
+</header>
+<nav>
+	<div id="myNav" class="overlay">
+  <!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+  <div class="overlay-content">
+	<a href="index.html" target="_self">Home</a>
+	<a href="mission.html" target="_self">Mission</a>
+	<a href="course.html" target="_self">Student Info</a>
+	<a href="about.html" target="_self">About Us</a>
+	<a href="testimonials.html" target="_self">Testimonials</a>
+	<a href="form.html" target="iframe" id="myBtn">Enroll Now!</a>
+	</div>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+if (    document.getElementById("myNav").style.height = "100%")
+{
+    document.getElementById("myNav").style.height = "0%";
+}
+}
+
+</script>
+</nav>  
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+<!--	<p>Temporary Modal Content Text</p> -->
+	
+	<iframe name="iframe" src="form.html" style="border: 2px solid black; width: 95%; height: 400px;" ></iframe>
+  </div>
+
+</div>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+<main style="background-image:url(images/bgrnd2.png);
+			background-size:cover;
+			background-position:center;" onclick="closeNav();">
+<div id="Content">
+
+<h1>Student Information</h1>
+		
+<h2>Driving Basics and Lessons: </h2>
+	<p>To start the day, we begin with 1 - 1.5 hr. of classroom, explaining basic vehicle 
+	dynamics & physics when applied to steering control & braking .</p>
+
+	<p>Drivers are taught that all skids begin with a slide. If sensed early enough and properly 
+	handled, you can prevent a slide from developing into a skid." Slides are controllable."</p>
+
+    <h1>Post-Traumatic Rehab</h1>
+     
+		<p>In many cases, drivers or passengers in vehicles involved in
+		serious collisions, may suffer a lasting psychological effect
+		reducing the ability of the person to operate a vehicle to some
+		degree or in severe cases, not at all.. We have had success in
+		working with medical doctors their patient to regain confidence
+		behind the wheel and return to a productive and full-filling
+		lifestyle.</p>
+
+		<p>If the patient has a lasting effect, their
+		knowledge/understanding of the situation will make them more
+		comfortable and confident. They will also realize what type of
+		situations may be best for them to avoid. </p>
+
+	
+	<h1>New driver handling</h1>
+
+
+		<p>We feel that there is enough stress in
+		driver training (trying to learn the rules of the road and how to
+		deal with traffic) without having to figure out how to operate the
+		vehicle at the same time.</p>
+ 
+		<p>We teach the new vehicle operator to be totally comfortable
+		and confident with vehicle operation. All vehicle operation
+		should be second nature combined with reflex response.</p>
+
+		<p>Upon completion of our program the new vehicle operator will be
+		reacting rather than wondering what they should be doing in a
+		given situation or how the vehicle will respond to driver
+		actions.</p>
+
+    <h1>Senior Skill Development</h1>
+
+		<p>Like it or not, age effects us. Physically and mentally for
+		different reasons we slow down and become restricted in our
+		abilities.</p>
+
+		<p>This a way of life that we have to accept, it is much easer to
+		deal with when we realize our limits and then adapt to stay
+		within them. Most problems occur when any driver, typically
+		unknowingly pushes themselves or their vehicle beyond acceptable
+		limits. This is usually covered after by the familiar &quot;
+		there was nothing I could do ! &quot;</p>
+	
+<h1> Weather Conditions</h1>
+	<p>Due to uncontrollable winter weather, we deal differently with winter training.</p>
+
+	<p>The bottom line is that we want drivers to realize that all surfaces are dangerous, not only 
+	when they are wet or covered with snow and ice.</p>
+
+	<p>The training and techniques will and do work on any surface in any vehicle if the driver can 
+	properly judge the surface traction.</p> 
+
+	<p>We walk with the same skills winter or summer, how do you adjust your walking skills differently for 
+	the different seasons? Most don't, but they adapt the same skills to more slippery surfaces.</p> 
+
+
+<h2><i>Have questions, call us...888-got-skll</i></h2>
+
+</div>
+<br><br><br><br><br>
+
+</main>
+
+	<footer>
+	<div class="footer" onclick="closeNav();">
+	<ul>
+	<li>Start your Training NOW!</li>
+	<li>Call (888) GOT-SKLL</li>
+	&nbsp;&nbsp;&nbsp;
+	<li>return to <a href="http://power.arc.losrios.edu/" target="_self">Power Server</a></li>
+	<li>Updated: 4/2/17 @ 2:10am </li>
+	<li> by <a href="http://power.arc.losrios.edu/~group1/cisw300/" target="_self"><img id="prime" src="http://power.arc.losrios.edu/~group1/cisw300/images/logo.png" alt="Code Prime Logo" height="40px" width="100px"></a></li>
+
+	</ul>
+</div> 
+	</footer>
+</div>	
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css'/>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" href="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript">
+
+    </script>
+
+
+  </head>
+  <body>
+
+
+    <!-- Home Page Starts Here -->
+
+
+    <div data-role="page" id="homepage" data-theme="a">
+
+      <div data-role="header" class="ui-header" data-theme="b" data-position="fixed">
+
+        <h4>Homepage</h4>
+
+        <div data-role="navbar" class="ui-navbar " data-position="fixed" >
+          <ul class="ui-grid-b">
+            <li class="ui-block-a">
+              <a href="#homepage" class="ui-btn-active ui-state-persist ui-link ui-btn"><span class="active-nav-text">Home</span></a>
+            </li>
+            <li class="ui-block-b">
+              <a href="#pagetwo" data-transition="flow" class="ui-link ui-btn">Page 2</a>
+            </li>
+            <li class="ui-block-c">
+              <a href="#pagethree" data-transition="flow"  class="ui-link ui-btn">Page 3</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <div class="container">
+          <p class="blurb">I Am Now A Mobile Developer!!</p>
+
+          <div class="menu">
+
+            <div data-role="collapsible">
+              <h1>TuneIn Radio Stations</h1>
+              <div class="ui-content">
+
+              </div>
+            </div>
+
+            <div data-role="collapsible">
+              <h1>Homepage - Section 2</h1>
+              <div class="ui-content">
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div data-role="footer" data-position="fixed" class="ui-footer" data-theme="b">
+        <h1><a href="../index.html" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext">Home Icon</a></h1>
+      </div>
+
+    </div> 
+
+
+    <!-- Page 2 Starts Here -->
+
+    <div data-role="page" id="pagetwo" data-theme="a">
+
+      <div data-role="header" class="ui-header" data-theme="b" data-position="fixed">
+
+        <h4>Page 2</h4>
+
+        <div data-role="navbar" class="ui-navbar" data-position="fixed">
+          <ul class="ui-grid-b">
+            <li class="ui-block-a">
+              <a href="#homepage" data-transition="flow" data-direction="reverse" class="ui-link ui-btn">Home</a>
+            </li>
+            <li class="ui-block-b">
+              <a href="#pagetwo" class="ui-btn-active ui-state-persist ui-link ui-btn"><span class="active-nav-text">Page 2</span></a>
+            </li>
+            <li class="ui-block-c">
+              <a href="#pagethree" data-transition="flow"  class="ui-link ui-btn">Page 3</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+
+      <div data-role="main" class="ui-content">
+        <div class="container">
+          <p class="blurb">I Am Now A Mobile Developer!!</p>
+
+          <div class="menu">
+
+            <div data-role="collapsible">
+              <h1>Page 2 - Section 1</h1>
+              <p>This is the 1<sup>st</sup> section.</p>
+            </div>
+
+            <div data-role="collapsible">
+              <h1>Page 2 - Section 2</h1>
+              <p>This is the 2<sup>nd</sup> section.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div data-role="footer" data-position="fixed" class="ui-footer" data-theme="b">
+        <h1><a href="../index.html" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext">Home Icon</a></h1>
+      </div>
+
+    </div>
+
+
+
+    <!-- Page 3 Starts Here -->
+
+    <div data-role="page" id="pagethree" data-theme="a">
+
+
+      <div data-role="header" class="ui-header" data-theme="b" data-position="fixed">
+
+        <h4>Page 3</h4>
+
+        <div data-role="navbar" class="ui-navbar" data-position="fixed">
+          <ul class="ui-grid-b active-nav-text">
+            <li class="ui-block-a">
+              <a href="#homepage" data-transition="flow" data-direction="reverse" class="ui-link ui-btn">Home</a>
+            </li>
+            <li class="ui-block-b">
+              <a href="#pagetwo" data-transition="flow" data-direction="reverse" class="ui-link ui-btn">Page 2</a>
+            </li>
+            <li class="ui-block-c">
+              <a href="#pagetthree" class="ui-btn-active ui-state-persist ui-link ui-btn">Page 3</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+
+
+      <div data-role="main" class="ui-content">
+        <div class="container">
+          <p class="blurb">I Am Now A Mobile Developer!!</p>
+
+          <div class="menu">
+
+            <div data-role="collapsible">
+              <h1>Page 3 - Section 1</h1>
+              <p>This is the 1<sup>st</sup> section.</p>
+            </div>
+
+            <div data-role="collapsible">
+              <h1>Page 3 - Section 2</h1>
+              <p>This is the 2<sup>nd</sup> section.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div data-role="footer" data-position="fixed" class="ui-footer" data-theme="b">
+        <h1><a href="../index.html" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext" data-theme="a">White Home Icon</a></h1>
+      </div>
+
+    </div> 
+
+  </body>
+</html>

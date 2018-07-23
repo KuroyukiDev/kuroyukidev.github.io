@@ -1,0 +1,44 @@
+[
+	{
+		title: "Barbara's Hydrangea",
+		url: "http://www.sacfinearts.org/joycewilson/Barbara's-Hydrangea.jpg",
+		artType: "Watercolor",
+		size: "20'x14"",
+		price: "$300"
+	},
+	{
+		title: "Calla Symphony",
+		url: "http://www.sacfinearts.org/joycewilson/CallaSymphony.jpg",
+		artType: "Watercolor",
+		size: '20"x14"',
+		price: "$300"
+	},
+	{
+		title: "Canyon Cliffs",
+		url: "http://www.sacfinearts.org/joycewilson/CanyonCliffs.jpg",
+		artType: "Watercolor",
+		size: '20"x14"',
+		price: "$300"
+	},
+	{
+		title: "Eagle Rock",
+		url: "http://www.sacfinearts.org/joycewilson/EagleRck12.jpg",
+		artType: "Watercolor",
+		size: '20"x14"',
+		price: "$300"
+	},
+	{
+		title: "Mr. Egret",
+		url: "http://www.sacfinearts.org/joycewilson/Egret2013.jpg",
+		artType: "Watercolor",
+		size: '9"x20"',
+		price: "SOLD"
+	},
+	{
+		title: "Fall Favorites",
+		url: "http://www.sacfinearts.org/joycewilson/Fall-Favorites.jpg",
+		artType: "Watercolor",
+		size: '20"x14"',
+		price: "$300"
+	};
+];

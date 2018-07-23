@@ -1,0 +1,139 @@
+html, body {
+	width: 100%;
+	height: auto;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+#logoimg {
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 0px;
+	margin: 0px;
+}
+#logoimg img {
+	height: 75px;
+	width: 75px;
+}
+
+.main .container {
+	height: 100%;
+}
+
+.mobile-nav-dropdown {
+	margin-top: 0;
+	background-color: maroon;
+	color: khaki;
+	font-weight: 300;
+}
+.navbar, .navbar-header {
+	height: 76px;
+	background-color: black;
+	
+}
+
+.my-menu-btn {
+	height: 58px;
+	width: 50px;
+	padding: 0 auto 0 auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	background-color: #3A3939;
+	
+}
+
+.section-img-style {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+.sakura-bg-img {
+	background-image: url("./../images/header_bg.png");
+	color: bisque;
+}
+
+.shrine-bg-img {
+	background-image: url("./../images/shrine-bg-img.jpg");
+	color: bisque;
+}
+
+.takenomori-bg-img {
+	background-image: url("./../images/takenomori-bg-img.jpg");
+	color: bisque;
+}
+
+.gate-bg-img {
+	background-image: url("./../images/gate-bg-img.jpg");
+	color: darkslategray;
+}
+
+.sakura-bg-img span {
+	background-color: deeppink;
+}
+
+.section-one, .section-two, .section-three {
+	height: auto;
+	width: 100%;
+	padding: 3px 5px;
+}
+
+.section-one img, .section-two img, .section-three img {
+	opacity: 0.75;
+}
+
+html, body, .main {
+	background-color: darkgrey;
+}
+
+
+.container h1, .container h2, .container h3 {
+	text-align: center;
+	
+}
+
+
+@media only screen and (max-width: 420px) and (orientation: portrait) {
+	body {
+		font-size: 14px;
+		z-index: 0;
+	}
+	h1 {
+		font-size: 1.25em;
+	}
+	
+	.header, .main {
+		width: 98%;
+		margin: 0 auto;
+		z-index: 0;
+	}
+	.hide {
+		display: none;
+	}
+	.drop-menu-panel {
+		background-color: black;
+		opacity: 0.75;
+		
+	}
+	.toggle-menu-button {
+		position: relative;
+		width: 100%;
+	}
+	
+	.navbar, .navbar-header {
+	height: 76px;
+	background-color: black;
+	
+}
+
+.navbar, .navbar-header, .mobile-nav-dropdown {
+	z-index: 4;
+}
+
+.navbar {
+	position: fixed;	
+}
+
+
+}
+

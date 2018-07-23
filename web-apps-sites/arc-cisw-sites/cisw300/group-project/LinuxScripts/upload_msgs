@@ -1,0 +1,22 @@
+#! bin/bash
+#
+#
+# Sends Messages to the Team When files are uploaded.
+#
+mail -s "Group1 Server" kuroyuki.mikoto@gmail.com
+Cc:
+Files were uploaded to
+or Modified on the 
+group1 Server.
+
+Please check what is
+new at your earliest
+convenience.
+
+Thank you for your
+hard work.
+
+From,
+Josh
+
+<Ctrl+D>

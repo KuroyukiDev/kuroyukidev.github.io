@@ -1,0 +1,21 @@
+img {
+	height: 10em;
+	width: 20em;
+	border-radius: 15px;
+	display: block;
+	margin: auto;
+}
+
+.galleryItem {
+   overflow: hidden;
+   position: relative;
+   width: 45%;
+   display: inline-block;
+   margin: 0 2px;
+
+}
+
+.title {
+	text-align: center;
+	
+}

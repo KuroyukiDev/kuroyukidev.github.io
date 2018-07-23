@@ -1,0 +1,11 @@
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Monoton|Open+Sans+Condensed:300|Open+Sans:300,400,700" rel="stylesheet"> 
+
+
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    font-family: 'Cormorant Garamond', serif;
+
+    font-family: 'Monoton', cursive;

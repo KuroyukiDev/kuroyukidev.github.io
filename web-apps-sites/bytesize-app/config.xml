@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "io.github.kuroyukidev.bytesize"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+	<name>ByteSize - Resize URLs</name>
+
+	<description>
+		Resize URLs with this simple app.
+	</description>
+
+	<author href="https://kuroyukidev.github.io" email="kuroyuki.dev@gmail.com">
+		黒雪尊
+	</author>
+  
+	<platform name="android" />
+	<icon src="./icon.png" platform="android" />
+</widget>

@@ -1,0 +1,65 @@
+<p align="center" Client List><br>
+</p>
+
+<p align="center"><font color="#0000FF" size="6" face="arial">CLIENT
+LIST</font></p>
+
+ 
+<div align="center"><ul>
+ <li><font size="3"><strong>Lafarge North America</strong></font></li>
+ <li><font size="3"><strong>FUGRO Airborne Surveys Corp</strong></font></li>
+ <li><font size="3"><strong>Transport Canada</strong></font></li>
+   <li><a href="http://www.wabicorp.com/"><font color="#0000FF"
+        size="3"><strong>WABI Iron & Steel Corp</strong></font></a><strong>
+        </strong></li>
+ <li><font size="3"><strong>INCO Mines - Sudbury</strong></font></li>
+    <li><a href="http://www.jackmay.com/"><font color="#0000FF"
+        size="3"><strong>Jack May Pontiac Buick</strong></font></a><strong>
+        </strong></li>
+    <li><font size="3"><strong>Ministry of Environment -
+        winter/summer</strong></font></li>
+    <li><font size="3"><strong>Parks Canada - winter/summer</strong></font></li>
+    <li><font size="3"><strong>Consumers Gas ( Driver Evaluations
+        )</strong></font></li>
+    <li><font size="3"><strong>Ontario Hydro (inspectors/driver
+        trainers)</strong></font></li>
+    <li><font size="3"><strong>Bell Canada - winter</strong></font></li>
+    <li><font size="3"><strong>Ontario Provincial Courts -
+        Traffic Ticket Reduction</strong></font></li>
+    <li><font size="3"><strong>C.I.S.I.S. -( winter/driver
+        instructors)</strong></font></li>
+    <li><font size="3"><strong>R.C.M.P.</strong></font></li>
+    <li><font size="3"><strong>Ottawa Carleton Police</strong></font></li>
+    <li><font size="3"><strong>Smiths Falls Police</strong></font></li>
+    <li><font size="3"><strong>Quaker Oats</strong></font></li>
+    <li><font size="3"><strong>Industrial Accident Prevention
+        Association</strong></font></li>
+    <li><font size="3"><strong>Ministry of Public Works -
+        Personal Security / Prime Minister</strong></font></li>
+    <li><font size="3"><strong>Bank of Canada ( exec. chaffeurs)</strong></font></li>
+    <li><font size="3"><strong>Federal Court - Security Personnel</strong></font></li>
+    <li><font size="3"><strong>Post Traumatic Rehabilitation</strong></font></li>
+ <li><a href="http://www.help-ottx.ca"><font color="#0000FF"
+        size="3"><strong>Highway Enforcement Legal Protection</strong></font></a><strong>
+        </strong></li>
+    <li><a href="http://www.pointts.com/ottawawest.htm"><font color="#0000FF" size="3"><strong>P.O.I.N.T.T.S Traffic Ticket
+        Agents</strong></font></a></li>
+    <li><a href="http://www.xcopper.com/"><font color="#0000FF"
+        size="3"><strong>X - COPPER Traffic Ticket Agents</strong></font></a><strong>
+        </strong></li>   
+
+    <li><a href="http://stopp.com/"><font color="#0000FF"
+        size="3"><strong>S.T.O.P.P Traffic Ticket Agents</strong></font></a><strong>
+        </strong></li>    
+    <li><font size="3"><strong>Xerox</strong></font></li>
+    <li><font size="3"><strong>Hewlett Packard</strong></font></li>
+    <li><font size="3"><strong>Smiths Falls Public Works</strong></font></li>
+    <li><font size="3"><strong>Expert Witness - Provincial Courts
+        requested by Coroner at inquests</strong></font></li>
+    <li><font size="3"><strong>C.J.O.H. Television - Exec.
+        Director Personal Security Training</strong></font></li>
+</ul>
+
+</div><p><br>
+<br>
+</p>

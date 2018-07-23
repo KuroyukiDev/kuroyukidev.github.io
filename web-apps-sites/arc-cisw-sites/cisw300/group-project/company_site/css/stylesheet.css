@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+
+#Wrapper {
+	height: 100%;
+	width: 98%;
+	margin: 0px;
+	max-width: 990px;
+}
+
+#Content {
+	height: 90%;
+	width: 100%;
+	overflow: auto;
+}
+
+#container {
+	width: 95%;
+	text-align: left;
+	margin:0px auto;
+}
+		
+#mainbar	{
+		margin-left: 20px;
+		float: left;
+		width:65%;
+		border-right: 5px solid white;
+		/*padding-bottom: 20px;*/
+		height: 600px;
+		overflow: auto;
+	}
+		
+#sidebar {
+		margin-top: 9px;
+		width: 30%;
+		float: left;
+		margin-left: 10px;
+}
+
+#prime {
+	transform:translateY(15px);
+}
+
+
+header {
+	position:fixed;
+	top: 0;
+	left: 0;
+	background-image: url("../images/nav998metal.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	/*background-size: contain;*/
+	width: 100%;
+	min-height:125px;
+	z-index:1;
+	font-family: Audiowide, Cursive;
+}
+
+nav {
+	margin-top: -52px;
+	position: fixed;
+	z-index:2;
+	width: 100%;
+	font-family: Audiowide, Cursive;
+}
+
+main {
+	width: 100%;
+	max-width:967px;
+	overflow-y: auto;
+	padding-bottom: 55px;
+	margin-top: 120px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left:-8px;	
+	max-height:378px;
+	overflow:auto;
+}
+
+nav a{
+	text-decoration: none;
+	border: outset 3px grey;
+}	
+
+footer a{
+	text-decoration: none;
+	color: #075341;
+	border: solid 3px black;
+}
+
+h1	{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+}
+
+h3 {
+	font-famliy: 'Open Sans', sans-serif;
+}
+
+a:link {
+		border: outset 3px grey;
+		text-shadow: 1px 1px #000000; 
+		color: #FA8752;
+		padding: 5px;
+		box-sizing: border-box;
+		}
+
+a:visited { Color: #CD1931;}
+
+a:hover {
+		border: inset 3px grey;
+		color: #07DB41;
+		
+background-color:rgba(255,255,255,0.3);
+		}
+
+footer ul { list-style-type: none;}
+
+nav ul { list-style-type: none;}
+
+footer li { display: inline;}
+
+nav li { display: inline;}
+
+	p {	font-family: 'Open Sans condensed', sans-serif; 
+		font-size: 18px;
+		padding-left: 10%;}
+
+div.footer {
+	margin-top: 130px;
+	position: fixed;
+	z-index:1;
+	color: white;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 14px;
+	text-align: left;
+}
+
+footer {
+	position:fixed;
+	bottom:-5%;
+	left:0px;
+	font-size:.60em;
+	font-style: italic;
+	border-style:none;
+	border-width: 0;
+	margin-left:0;
+	margin-right:0;
+	background-image: url("../images/dash998.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	/*background-size: contain;*/
+	width:100%;
+	/*height:100%;*/
+	min-height:225px;
+	z-index: 2;
+	}
+
+/*------------------------------------------------*/
+/* ---------DROP-DOWN MENU------------------------*/
+/*------------------------------------------------*/	
+.overlay {
+    height: 0%;
+    width: 112px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+	margin-top: 125px;
+}
+
+.overlay-content {
+    position: relative;
+     width: 110px;
+    text-align: right;
+ }
+
+.overlay a {
+    padding: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+	
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    float: right;
+    top: 20px;
+    right: 0px;
+    font-size: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/*-------------------------------------------*/
+/*-----------THE MODAL (background)----------*/
+/*-------------------------------------------*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*
+<style>
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Monoton|Open+Sans+Condensed:300|Open+Sans:300,400,700');
+</style>
+*/
+	
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Monoton', cursive;
+*/

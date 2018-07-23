@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Car Racer Game</title>
+    
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/gameStyles.css" rel="stylesheet">
+    
+</head>
+
+<body id="race">
+	
+	<div class="wrapper">
+			
+		<h1 class="text-center">Car Racer</h1>
+		<div id="controls">
+			<input type="button" value="Race!" id="go">
+			<input type="button" value="Reset" id="reset">
+		</div>
+		
+
+		<div id="racetrack">
+			<img src="img/car1.png" alt="Green car" id="car1" class="car">
+			<img src="img/car2.png" alt="Red car" id="car2" class="car">
+		</div>
+
+		<div id="raceInfoContainer" class="clearfix">
+			<h2 class="text-center">Results</h2>
+			<div id="raceInfo1" class="raceInfo text-center">Car 1<span></span></div>
+			<div id="raceInfo2" class="raceInfo text-center">Car 2<span></span></div>
+		</div>
+		
+	</div>
+	
+	<!--  JQuery  -->
+    <script src="script-imports/jquery/jquery.min.js"></script>
+	
+    <script src="js/gameScript.js"></script>
+    
+</body>
+</html>

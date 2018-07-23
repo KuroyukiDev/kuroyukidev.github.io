@@ -1,0 +1,158 @@
+/*-------------------------------------------------------*/
+/*                                                       */
+/* Setting Custom 'font-family' font name sets using     */
+/* the uploaded font packages in the 'fonts' directory.  */
+/*                                                       */
+/* IMPORTANT: Every font package we upload needs         */
+/* to be added to this list too before it can be used.   */
+/*                                                       */
+/*-------------------------------------------------------*/
+
+/*
+@font-face {
+  font-family: 'akashi';
+  src: URL('fonts/akashi.ttf') format ('ttf');
+  
+  font-family: 'DLE Digital';
+  src: URL('fonts/DLE_Digital.ttf') format ('ttf');
+  
+  font-family: 'Orena solo mayusculas';
+  src: URL('fonts/Orena_solo_mayusculas.ttf') format ('ttf');
+  
+  font-family: 'Zian';
+  src: URL('fonts/Zian.ttf') format ('ttf');
+}
+*/
+
+
+/* Fonts imported from Google Fonts API */
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Ceviche+One|Federant|Julee|Keania+One|Metal+Mania|Revalia|Shojumaru|Stalinist+One');
+
+body {
+		background-color: green;
+		
+		/* These need some more research to get working... For now we're going to use the fonts from Google Fonts API... */
+		/*font-family: 'akashi'; */
+		/*font-family: 'DLE Digital'; */
+		/*font-family: 'Orena solo mayusculas'; */
+		/*font-family: 'Zian'; */
+		
+		/* The following are imported Google API Fonts */
+		font-family: 'Audiowide', cursive; /*I like this one best. ~ Tony*/
+		/*font-family: 'Ceviche One', cursive;
+		font-family: 'Shojumaru', cursive;
+		font-family: 'Revalia', cursive;
+		font-family: 'Julee', cursive;
+		font-family: 'Keania One', cursive;
+		font-family: 'Metal Mania', cursive
+		font-family: 'Stalinist One', cursive;
+		font-family: 'Federant', cursive;*/
+		
+}
+
+#wrapper {
+		padding-left: .5%;
+		padding-right: .5%;
+		padding-top: .5%;
+		padding-bottom: .5%;
+		margin: auto;
+		height: 93vh;
+		width: 95vw;
+		background-color: SlateGrey;
+		border-radius: 15px;
+		border: 8px double green;
+}
+
+table {
+
+		margin-top: .5%; /*using padding at the top gave us an extra cell worth of space between the two borders at the top.*/
+		margin-bottom: auto;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #000000;  /*Darker shade of WhiteSmoke color*/
+		height: 25vh;
+		width: 55vw;
+}
+
+table, th, td {
+		border: 1.8px solid green;
+		color: white;
+	
+}
+
+td {
+		padding: 2%;
+		text-align: center;
+	
+}
+
+th {
+	    height: 10vh;
+		background-image: linear-gradient(to bottom, SlateGrey, black);
+}
+
+td {
+	background-color: #000000; /*Black*/
+	
+}
+
+img {
+	border-radius: 15px;
+	border: 1.8px solid green;
+	max-width:100%;
+	
+}
+
+a {
+	color: green;
+	text-decoration: none;
+	
+}
+
+a:hover {
+	color: blue;
+	text-decoration: none;
+	
+}
+
+a:visited {
+	color: orange;
+	text-decoration: none;
+	
+}
+
+.logosize {
+	height: 15vh;
+	width: 45vw;
+	
+}
+
+.profilepicsize {
+	height: 15vh; 
+	width: 15vw;
+	
+}
+
+footer {
+	text-align: center;
+	padding: auto;
+}
+
+.hero-image {
+  max-width: 100%; 
+  width: 55vw;
+  margin: auto;
+}
+/*
+.hero-image::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #000 100%);
+  margin-top: -11vh;
+  height: 11vh;
+  width: 100%;
+  content: '';
+}
+*/
+/*{ This page was last updated on: 3/5/2017 10:19am - Tony. }*/

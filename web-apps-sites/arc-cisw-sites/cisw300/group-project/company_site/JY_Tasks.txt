@@ -1,0 +1,18 @@
+
+Josh's To-Do List
+
+1. Index w/ Header & Footer Images
+	> Embed Header Image
+	> Embed Footer Image
+
+2. Links for Content Pages ## NOTE: Need Layout Mock-ups from team for templates. Obtain by Saturday Evening. ##
+	> Mission < mission.html >
+	> Clients + Testimonials < clients.html >
+	> Student Info + Course Content < course.html >
+	    > Registration **A Registration Form Page** < register.html >## NOTE: Top Menu = DD li BOTH =  Target="_blank" ##
+	> About < about.html >
+	> Contact Us < contact.html >
+
+3. Content in Footer Section
+	> Last edited Date & Time
+	> To </Code Pr1me> Homepage Link using mini logo as link

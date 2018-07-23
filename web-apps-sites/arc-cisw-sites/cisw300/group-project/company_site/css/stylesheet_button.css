@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+#Wrapper {
+	height: 95%;
+	width: 100%;
+	/*margin: auto;*/
+	
+}
+
+#Header {
+	height: 10vh;
+	width: 100%;
+	float: left;
+
+	
+}
+
+body {
+	/*width: 987px;
+	height: 507px;*/
+	
+}
+
+#Content {
+	height: 90%;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 140px;
+	overflow: auto;
+}
+
+#prime {
+	transform:translateY(15px);
+	
+	
+}
+
+header {
+	position:fixed;
+	top: 0;
+	left: 0;
+		background-image: url("../images/nav998metal.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	width: 100vw;
+	min-height:125px;
+	z-index:1;
+	font-family: Audiowide, Cursive;
+}
+
+nav {
+	margin-top: 59px;
+	float: right;
+	position: fixed;
+	z-index:2;
+	margin-left: 65%;
+	width: 100%;
+	font-family: Audiowide, Cursive;
+}
+main {
+	top: 84px;
+	width: 100%;
+	height: 260px;
+	padding-top: 120px;
+	padding-bottom: 140px;
+	/*overflow-y: auto;*/
+	
+}
+
+nav a{
+	text-decoration: none;
+	border: outset 3px grey;
+}
+
+footer a{
+	text-decoration: none;
+	color: #075341;
+	border: solid 3px black;
+}
+	
+a:link {
+		border: outset 3px grey;
+		text-shadow: 1px 1px #000000; 
+		color: #FA8752;
+		padding: 5px;
+		}
+
+a:visited { border: inset 3px grey;
+		color: #07DB41;}
+
+a:hover {
+		border: inset 3px grey;
+		color: #07DB41;
+		
+background-color:rgba(255,255,255,0.3);
+		}
+
+footer ul { list-style-type: none;}
+
+nav ul { list-style-type: none;}
+
+footer li { display: inline;}
+
+nav li { display: inline;}
+
+	p {	font-family: 'Open Sans', sans-serif;}
+
+div.footer {
+	margin-top: 140px;
+	position: fixed;
+	z-index:2;
+	color: white;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 14px;
+	text-align: left;
+}
+
+footer {
+	position:fixed;
+	bottom:-20px;
+	left:0px;
+	font-size:.60em;
+	font-style: italic;
+	border-style:none;
+	border-width: 0;
+	margin-left:0;
+	margin-right:0;
+	background-image: url("../images/dash998.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	width:100%;
+	height:225px;
+	min-height:176px;
+
+	}
+
+
+
+	
+/*
+<style>
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Monoton|Open+Sans+Condensed:300|Open+Sans:300,400,700');
+</style>
+*/
+	
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Monoton', cursive;
+*/
